@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#060b14">
+  <meta name="description" content="The academic and research portfolio of Kareem Ismail Mohamed — AI, biomedical signal processing, robotics, and intelligent systems.">
+  <title>Kareem Ismail Mohamed | AI Research Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='13' fill='%23060b14'/%3E%3Cpath d='M16 45V19h7v10l10-10h9L30 32l14 13h-10L23 35v10z' fill='%234ea1ff'/%3E%3Ccircle cx='47' cy='18' r='4' fill='%2358d6ad'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./refined.css">
+</head>
+<body>
+  <div class="reading-progress"><span id="progress"></span></div>
+  <header class="nav-shell">
+    <a class="brand" href="#home"><b>KI</b><span>Kareem Ismail<small>Research portfolio · Egypt</small></span></a>
+    <nav id="nav"><a href="#about">About</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#leadership">Leadership</a></nav>
+    <div class="nav-actions"><a class="cv-link" href="./Kareem_Ismail_CV.docx" download>Download CV</a><button class="menu" aria-expanded="false" aria-controls="nav">Menu</button></div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span>GRADE 12 · OBOUR STEM SCHOOL · EGYPT</p>
+          <h1>Kareem Ismail<br><em>Mohamed.</em></h1>
+          <p class="hero-role">AI & Machine Learning · Biomedical AI · Robotics</p>
+          <p class="hero-lead">I build research-driven systems that connect computation with real-world problems—especially in healthcare, intelligent machines, and sustainable technology.</p>
+          <div class="hero-actions"><a class="button solid" href="#research">Explore my work</a><a class="button ghost" href="#about">About me</a></div>
+          <div class="hero-proof"><div><strong>3.8/4.0</strong><span>Academic GPA</span></div><div><strong>1st Place</strong><span>UGRF 2026</span></div><div><strong>18</strong><span>Public repositories</span></div></div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Interactive AI and ECG visualization">
+          <canvas id="networkCanvas" aria-hidden="true"></canvas>
+          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+          <div class="core">
+            <span>RESEARCH FOCUS</span>
+            <strong>AI × Biomedical<br>Intelligence</strong>
+            <small>ECG · ML · SIGNALS</small>
+          </div>
+          <svg class="hero-ecg" viewBox="0 0 600 130" aria-hidden="true"><path d="M0 75h75l12-8 13 8h35l12 26 17-81 20 104 19-49h87l13-9 12 9h35l14 25 17-78 20 101 18-48h87l14-8 11 8h45"/></svg>
+          <div class="visual-label top">KIM // 2027</div><div class="visual-label bottom">COMPUTE · BUILD · TEST</div>
+        </div>
+      </div>
+      <div class="hero-foot"><span>Research</span><span>Engineering</span><span>Leadership</span><span>Community</span></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label reveal"><span>01</span><p>Profile</p></div>
+      <div class="about-grid">
+        <div class="section-title reveal"><p class="kicker">ABOUT ME</p><h2>Curiosity becomes valuable when it is turned into a working system.</h2></div>
+        <div class="about-copy reveal"><p>I am a STEM student interested in the point where computer science, scientific research, and engineering meet. I enjoy understanding a problem from first principles, testing an idea, and iterating until it becomes useful.</p><p>That approach has taken me from programming and robotics to ECG signal analysis, machine-learning pipelines, embedded systems, and technical leadership.</p><a class="inline-link" href="#admissions">Why AI & Computer Science?</a></div>
+      </div>
+      <div class="discipline-grid reveal">
+        <article><span>01</span><h3>Artificial Intelligence</h3><p>Machine learning, classification, feature engineering, data analysis, and model evaluation.</p></article>
+        <article><span>02</span><h3>Biomedical Computing</h3><p>ECG processing, cardiac pattern analysis, computational physiology, and risk modeling.</p></article>
+        <article><span>03</span><h3>Intelligent Engineering</h3><p>Robotics, embedded systems, sensors, IoT, control, and rapid prototyping.</p></article>
+        <article><span>04</span><h3>Research Leadership</h3><p>Experimental thinking, technical documentation, team coordination, and STEM mentoring.</p></article>
+      </div>
+    </section>
+
+    <section class="research section" id="research">
+      <div class="section-label reveal"><span>02</span><p>Featured research</p></div>
+      <div class="research-intro reveal"><div><p class="kicker">BIOMEDICAL AI · 2026</p><h2>AI-Synchronized ECG System for Early Cardiovascular Risk Analysis</h2></div><p>A research prototype combining ECG acquisition, computational feature extraction, machine learning, and real-time monitoring to study cardiac abnormalities and elevated cardiovascular risk.</p></div>
+      <div class="research-dashboard reveal">
+        <div class="ecg-panel">
+          <div class="panel-head"><span>ECG SIGNAL / SAMPLE VIEW</span><span>PTB-XL</span></div>
+          <svg viewBox="0 0 1000 300" role="img" aria-label="ECG waveform visualization"><defs><linearGradient id="ecgLine"><stop stop-color="#4ea1ff"/><stop offset="1" stop-color="#58d6ad"/></linearGradient></defs><path class="ecg-glow" d="M0 170h90l15-12 18 12h40l17 34 23-135 28 175 26-74h100l17-12 15 12h42l18 35 22-128 28 167 27-74h100l16-13 17 13h40l17 35 24-137 27 175 27-73h115"/><path class="ecg-line" d="M0 170h90l15-12 18 12h40l17 34 23-135 28 175 26-74h100l17-12 15 12h42l18 35 22-128 28 167 27-74h100l16-13 17 13h40l17 35 24-137 27 175 27-73h115"/></svg>
+          <div class="signal-features"><span>Temporal</span><span>Morphology</span><span>Frequency</span><span>Wavelets</span><span>Entropy</span><span>RMS</span></div>
+        </div>
+        <div class="research-summary">
+          <p class="mono">RESEARCH QUESTION</p><h3>Can multidomain ECG features support earlier identification of clinically relevant cardiac patterns?</h3>
+          <p>The system uses Kareem’s own modeling pipeline—not a third-party AI API—covering preprocessing, signal segmentation, engineered features, classification, and evaluation.</p>
+          <div class="research-awards"><span><b>1st</b>22nd UGRF</span><span><b>3rd</b>ISEF Republic</span><span><b>Finalist</b>EUCYS 2026</span></div>
+        </div>
+      </div>
+      <div class="architecture reveal">
+        <div class="architecture-title"><p class="mono">SYSTEM ARCHITECTURE</p><p>From physiological signal to decision support.</p></div>
+        <div class="pipeline">
+          <div><span>01</span><b>ECG Sensor</b><small>Signal acquisition</small></div><i></i>
+          <div><span>02</span><b>Raspberry Pi</b><small>Edge processing</small></div><i></i>
+          <div><span>03</span><b>AI Pipeline</b><small>Features + model</small></div><i></i>
+          <div><span>04</span><b>Mobile App</b><small>Live monitoring</small></div><i></i>
+          <div><span>05</span><b>Risk Output</b><small>Actionable alert</small></div>
+        </div>
+      </div>
+      <div class="research-columns reveal">
+        <div><p class="mono">AI / SOFTWARE</p><ul><li>ECG preprocessing and segmentation</li><li>Time, morphology, frequency, wavelet, entropy, and RMS features</li><li>Machine-learning classification and risk modeling</li><li>Real-time analysis and mobile monitoring</li></ul></div>
+        <div><p class="mono">HARDWARE</p><ul><li>ECG sensor and Raspberry Pi</li><li>GPS-enabled assistance workflow</li><li>Smartphone and mobile application</li><li>Research-focused real-time prototype</li></ul></div>
+        <aside><strong>Research prototype</strong><p>This work explores decision support and pattern detection. It does not replace professional medical diagnosis or clinical evaluation.</p></aside>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-label reveal"><span>03</span><p>Selected systems</p></div>
+      <div class="heading-row reveal"><div><p class="kicker">PROJECTS</p><h2>Built to test ideas in the real world.</h2></div><p>Selected work across biomedical AI, embedded engineering, sustainability, and digital infrastructure.</p></div>
+      <div class="project-grid">
+        <article class="project-card large reveal"><div class="project-art smart-city"><span>SMART CITY / CONTROL NETWORK</span><div class="nodes"><i></i><i></i><i></i><i></i></div></div><div class="project-body"><p class="mono">EMBEDDED SYSTEMS · 2024</p><h3>Smart City Prototype</h3><p>Arduino and C++ system integrating sensors, automated functions, hardware testing, and control logic.</p><div class="project-meta"><span>Arduino</span><span>C++</span><span>Sensors</span><b>1st · AUC STEM Club</b></div></div></article>
+        <article class="project-card reveal"><div class="project-art aquaponics"><span>ENVIRONMENT / CLOSED LOOP</span><div class="gauge"><i></i></div></div><div class="project-body"><p class="mono">IOT · 2026</p><h3>Aquaponics Monitoring</h3><p>Environmental sensing and automated control for water, temperature, pumps, ventilation, and live LCD feedback.</p><div class="project-meta"><span>DHT11</span><span>DS18B20</span><span>Relay</span></div></div></article>
+        <article class="project-card reveal"><div class="project-art tedx"><span>EVENT TECHNOLOGY</span><strong>PARALLAX</strong></div><div class="project-body"><p class="mono">WEB INFRASTRUCTURE · 2026</p><h3>TEDx Obour STEM Youth</h3><p>Website, ticketing, registration, QR workflows, and digital attendee operations for the event’s second edition.</p><div class="project-meta"><span>Web</span><span>QR</span><span>Operations</span><a href="https://tedx.mountain-egy.site" target="_blank" rel="noreferrer">Visit site</a></div></div></article>
+      </div>
+      <div class="github-block reveal"><div><p class="kicker">EXPLORE MY CODE</p><h2>Ideas, iterations, and working prototypes.</h2><p>My repositories document how concepts evolve through experimentation and hands-on development.</p><a class="button solid" href="https://github.com/Kareem559-k" target="_blank" rel="noreferrer">Open GitHub profile</a></div><div class="repo-card"><header><span>PUBLIC REPOSITORY</span><b>JavaScript</b></header><h3>cardiac-pre-ischemia</h3><p>Development work related to cardiac risk analysis and the ECG research system.</p><a href="https://github.com/Kareem559-k/cardiac-pre-ischemia" target="_blank" rel="noreferrer">View repository</a></div></div>
+    </section>
+
+    <section class="achievements section" id="achievements">
+      <div class="section-label reveal"><span>04</span><p>Research & recognition</p></div>
+      <div class="heading-row reveal"><div><p class="kicker">MILESTONES</p><h2>Recognition earned across research, mathematics, and engineering.</h2></div></div>
+      <div class="achievement-layout">
+        <div class="major-award reveal"><div class="award-mark">01</div><p class="mono">22ND UNDERGRADUATE RESEARCH FORUM · 2026</p><h3>1st Place</h3><p>School Students Track</p><strong>An AI-Driven Computational Framework for Cardiac Ischemia Detection</strong><div class="award-foot"><span>Team GSP-185</span><span>7th Junior Researcher Competition</span></div></div>
+        <div class="timeline reveal">
+          <div><time>2026</time><span class="dot"></span><p><b>EUCYS / International Research Competition</b><small>Finalist</small></p></div>
+          <div><time>2026</time><span class="dot"></span><p><b>International Youth Math Challenge</b><small>Recognition</small></p></div>
+          <div><time>2025</time><span class="dot"></span><p><b>ISEF — Republic Level</b><small>3rd Place</small></p></div>
+          <div><time>2025</time><span class="dot"></span><p><b>TMED Competition</b><small>3rd Place</small></p></div>
+          <div><time>2025</time><span class="dot"></span><p><b>Mathematics Olympiad</b><small>Bronze Medal</small></p></div>
+          <div><time>2024</time><span class="dot"></span><p><b>AUC STEM Club Competition</b><small>1st Place</small></p></div>
+          <div><time>2023</time><span class="dot"></span><p><b>Nile University Competitions</b><small>2nd Place · App & STEM Club</small></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="leadership section" id="leadership">
+      <div class="section-label reveal"><span>05</span><p>Leadership & community</p></div>
+      <div class="heading-row reveal"><div><p class="kicker">BEYOND INDIVIDUAL WORK</p><h2>Technical leadership is a force multiplier.</h2></div><p>I lead by creating systems, organizing teams, and making technical knowledge more accessible to others.</p></div>
+      <div class="role-grid">
+        <article class="reveal"><span>2025—2026</span><h3>CEO</h3><h4>Obour Robotics Club</h4><p>Leadership, project coordination, robotics activities, technical development, and competition support.</p></article>
+        <article class="reveal"><span>2026</span><h3>Head of IT</h3><h4>TEDx Obour STEM Youth</h4><p>Led the digital infrastructure for Parallax, including the website, registration, ticketing, and QR workflows.</p></article>
+        <article class="reveal"><span>2025—2026</span><h3>Head of IT / Organizer</h3><h4>Physics, Mathematics & Chemistry Clubs</h4><p>Supported technical activities and organized physics, mathematics, and robotics competitions.</p></article>
+        <article class="reveal"><span>2026</span><h3>Team Leader</h3><h4>Zayed Sustainability Project</h4><p>Coordinated a circular-economy concept combining biological processing, monitoring, sensors, and connectivity.</p></article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-label reveal"><span>06</span><p>Technical foundation</p></div>
+      <div class="skills-grid reveal">
+        <div><p class="kicker">PROGRAMMING</p><h3>Python</h3><h3>C++</h3><h3>Arduino</h3><h3>MIT App Inventor</h3></div>
+        <div><p class="kicker">AI & DATA</p><span>Machine Learning</span><span>Classification</span><span>Feature Engineering</span><span>Signal Processing</span><span>Model Evaluation</span><span>Data Analysis</span></div>
+        <div><p class="kicker">ENGINEERING</p><span>Robotics</span><span>Embedded Systems</span><span>Raspberry Pi</span><span>IoT</span><span>Sensors</span><span>Automation</span></div>
+        <div><p class="kicker">RESEARCH</p><span>Experimental Design</span><span>Scientific Research</span><span>Technical Documentation</span><span>Biomedical Analysis</span><span>Problem Solving</span></div>
+      </div>
+    </section>
+
+    <section class="admissions section" id="admissions">
+      <div class="admissions-copy reveal"><p class="kicker">WHY AI & COMPUTER SCIENCE?</p><h2>My path was not a straight line into AI. It was a sequence of harder questions.</h2><p>STEM education taught me to connect disciplines. Programming gave me a way to test ideas. Robotics made those ideas physical. Scientific research taught me to measure, question, and iterate. Biomedical AI brought all of those threads together around problems with genuine human consequence.</p><div class="path"><span>STEM</span><i></i><span>Programming</span><i></i><span>Robotics</span><i></i><span>AI</span><i></i><span>Research</span><i></i><span>Biomedical AI</span></div></div>
+      <aside class="academic-card reveal"><p class="mono">ACADEMIC PROFILE</p><h3>Obour STEM School</h3><p>Grade 12 STEM Student · Egypt<br>Expected graduation: 2027</p><div><span>Mathematics</span><span>Physics</span><span>Chemistry</span><span>Computer Science</span><span>Research</span><span>Engineering</span></div></aside>
+    </section>
+
+    <section class="focus section">
+      <div class="section-label reveal"><span>07</span><p>Currently exploring</p></div>
+      <div class="focus-row reveal"><span>AI & ML</span><span>Biomedical AI</span><span>ECG Processing</span><span>Computer Vision</span><span>Robotics</span><span>Embedded AI</span><span>Sustainable Tech</span></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-inner reveal"><p class="eyebrow"><span></span>RESEARCH · TECHNOLOGY · COLLABORATION</p><h2>Let’s build something meaningful.</h2><p>I’m always interested in research opportunities, STEM collaboration, and projects that turn strong questions into useful systems.</p><div class="contact-actions"><a class="button solid" href="mailto:kareemkhdar@gmail.com">Email me</a><a href="https://github.com/Kareem559-k" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/kareem-ismail-476a96350" target="_blank" rel="noreferrer">LinkedIn</a></div></div>
+      <footer><span>© <span id="year"></span> Kareem Ismail Mohamed</span><span>Designed as an academic portfolio</span><a href="#home">Back to top</a></footer>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# Local tooling and generated workspace metadata
+.openai/
+.site-checkout/
+
+# Personal photo is intentionally not part of the published portfolio
+Kareem Ismail .jpeg
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
